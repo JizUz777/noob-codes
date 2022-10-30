@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Download</title>
+  </head>
+  <style>
+    div {
+      font-family: arial;
+    }
+
+    .container {
+      background-color: purple;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 5px;
+    }
+    .flexbox {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .home {
+      font-size: 20px;
+      align-items: flex-start;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .home:hover {
+      text-decoration: underline;
+      color: lightgreen;
+    }
+
+    .search {
+      width: 600px;
+      padding-left: 20px;
+      height: 30px;
+      border: none;
+      font-size: 20px;
+      border-radius: 20px;
+      align-items: stretch;
+    }
+    .download-button {
+      background-color: purple;
+      color: white;
+      font-weight: bold;
+      border-radius: 4px;
+      font-weight: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      border-color: white;
+      border: solid;
+      border-width: 1px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      cursor: pointer;
+    }
+    .download-button:active {
+      background-color: lightgreen;
+      color: black;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="flexbox">
+        <div class="home">Home</div>
+        <div class="search-tab">
+          <input class="search" type="text" placeholder="Search" />
+        </div>
+
+        <div class="div-button">
+          <button class="download-button">Download</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>discord</title>
+  </head>
+  <style>
+    div {
+      font-family: Arial;
+    }
+    .sidebar1 {
+      background-color: rgb(33, 33, 33);
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .picture {
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      object-fit: cover;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+    .picture:hover {
+      padding-top: 4px;
+      padding-bottom: 4px;
+    }
+    .sidebar2 {
+      background-color: rgb(55, 55, 55);
+      position: fixed;
+      width: 150px;
+      left: 70px;
+      bottom: 0;
+      top: 0;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+    .name:hover {
+      padding-left: 10px;
+      padding-right: 10px;
+      color: lightgreen;
+    }
+    .create-new:hover {
+      color: lightgreen;
+    }
+    .name {
+      color: white;
+      font-size: 14px;
+    }
+    .create-new {
+      color: rgb(150, 150, 150);
+      font-size: 25px;
+    }
+    .channel {
+      color: rgb(150, 150, 150);
+      margin-bottom: 16px;
+      cursor: pointer;
+    }
+    .channel:hover {
+      color: aqua;
+      padding-left: 10px;
+      padding-right: 10px;
+      text-decoration: underline;
+    }
+  </style>
+  <body style="height: 3000px">
+    <div class="sidebar1">
+      <div>
+        <img class="picture" src="img/16062010047.jpg" alt="" />
+      </div>
+      <div>
+        <img class="picture" src="img/IMG20190613131240.jpg" alt="" />
+      </div>
+
+      <div>
+        <img class="picture" src="img/IMG-20210821-WA0018.jpg" alt="" />
+      </div>
+    </div>
+
+    <div class="sidebar2">
+      <div class="header">
+        <div class="name">INFO</div>
+        <div class="create-new">+</div>
+      </div>
+      <div class="channel"># new-videos</div>
+      <div class="channel"># updates</div>
+      <div class="channel"># faq</div>
+    </div>
+  </body>
+</html>

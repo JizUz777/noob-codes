@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Goggle</title>
+  </head>
+  <style>
+    div {
+      text-align: center;
+    }
+    .google-logo {
+      margin-left: 360px;
+      margin-right: 400px;
+    }
+    .image {
+      width: 300px;
+      display: block;
+      margin-left: 150px;
+      margin-right: 150px;
+
+      margin-left: 5px;
+      margin-bottom: 20px;
+    }
+    .search {
+      border: solid;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-left: 16px;
+      padding-right: 16px;
+      font-size: 16px;
+      width: 500px;
+      border-radius: 30px;
+      box-shadow: 0 1x 6x rgba(0, 0, 0.2);
+    }
+    .lucky-button,
+    .google-button {
+      font-size: 20px;
+      padding-right: 25px;
+      padding-left: 25px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      margin-top: 40px;
+      border: none;
+      background-color: aquamarine;
+      cursor: pointer;
+    }
+    .lucky-button:active {
+      opacity: 50%;
+    }
+    .google-button:active {
+      opacity: 50%;
+    }
+  </style>
+  <body>
+    <div class="google-logo">
+      <img class="image" src="img/google_PNG.png" />
+    </div>
+    <div>
+      <input
+        class="search"
+        type="text"
+        placeholder="Search Google or type a URL"
+      />
+    </div>
+    <div class="button">
+      <button class="google-button">Google Search</button>
+      <button class="lucky-button">I'm feeling Lucky</button>
+    </div>
+  </body>
+</html>
